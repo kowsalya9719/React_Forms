@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  background-color: #b3f0ff;
+
+}
+
+code {
+  font-family: monospace;
+}
+.form-wrapper{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding:30px;
+  border-radius: 5px;
+  position: absolute;
+  }
+  form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }  
+  input{
+    padding: 5px 30px;
+    outline: none;
+  }
+  #input
+  {
+    padding:"5px";
+  }
+.firstName,
+.lastName,
+.email,
+.password
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.confirm-password{
+  margin-bottom: 10px;
+}
+.status{
+  margin-bottom: 10px;
+}
+.country{
+  margin-bottom:10px
+}
+.statename{
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+.register{
+  margin-bottom: 0px;
+  margin-top: auto;
+  
+}
+.rightside{
+  position: absolute;
+  left: 600px;
+  padding-top: 20px;
+
+}
+th{
+  padding:20px;
+}
